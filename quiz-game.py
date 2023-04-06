@@ -1,7 +1,7 @@
 questions = ['Q1: What does CPU stands for? ',
              'Q2: What does RAM stands for? ',
              'Q3: What does ROM stands for? ',
-             'Q3: What does UML stands for? ']
+             'Q4: What does UML stands for? ']
 
 answers = ['central processing unit',
            'random access memory',
@@ -26,4 +26,4 @@ else:
         else:
             print('incorrect')
         counter += 1
-    print(f'You got {correct} answers right')
+    print(f'You got {correct} out of {len(questions)} answers right\nWith a percentage of {(correct/len(questions))*100} %')
